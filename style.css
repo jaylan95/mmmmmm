@@ -1,4 +1,4 @@
-.dody{
+body{
     padding-top: 70px;
     padding-left: 120px;
 }
@@ -56,35 +56,15 @@ cursor: pointer;
 
 @media(min-width:500px){
     .section{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
-
- .dody{
- padding-top: 100px;
 }
-
-
-
-}
-
 @media(max-width:750px){
     .section{
         grid-template-columns: 1fr;
     }
-    .header{
-        height: 50px;
-    }
-    .nav{
-        visibility: hidden;
-    }
-    .dody{
-        padding-left: 0px;
-        padding-top: 100px;
-    }
-   
 }
-
-@media(min-width:1000px){
+@media(min-width:1500px){
     .section{
         grid-template-columns: 1fr 1fr 1fr ;
     }
