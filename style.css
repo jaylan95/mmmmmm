@@ -1,4 +1,4 @@
-.dody{
+body{
     padding-top: 70px;
     padding-left: 120px;
 }
@@ -63,17 +63,6 @@ cursor: pointer;
     .section{
         grid-template-columns: 1fr;
     }
-    .header{
-        height: 50px;
-    }
-    .nav{
-        top: 50px;
-        width: 80px;
-    }
-    .dody{
-        padding-left: 80px;
-    }
-   
 }
 @media(min-width:1500px){
     .section{
