@@ -1,5 +1,5 @@
-body{
-    padding-top: 70px;
+.dody{
+    padding-top: 100px;
     padding-left: 120px;
 }
 .image{
@@ -56,22 +56,51 @@ cursor: pointer;
 
 @media(min-width:500px){
     .section{
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .dody{
+        padding-top: 70px;
+        padding-left: 120px;
+    }
+
+
+
 }
+
 @media(max-width:750px){
     .section{
         grid-template-columns: 1fr;
     }
+    .header{
+        height: 50px;
+    }
+    .nav{
+        visibility: hidden;
+        display: none;
+    }
+    .dody{
+        padding-left: 0px;
+        padding-top: 70px;
+    }
+   
 }
-@media(min-width:1500px){
+
+@media(min-width:1000px){
     .section{
         grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .dody{
+        padding-left: 120px;
     }
 }
 @media(min-width:1900px){
     .section{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .dody{
+        padding-top: 70px;
+        padding-left: 120px;
     }
 }
 .meneu{
