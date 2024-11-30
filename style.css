@@ -6,15 +6,16 @@
 .image{
 width: 100%;
 cursor: pointer;
+border-radius: 10px;
 }
 .section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin-top: 70px;
-    color: rgb(0, 0, 0);
+    
 }
 .div{
     display: grid;
