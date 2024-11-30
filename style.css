@@ -1,6 +1,7 @@
 .dody{
-    padding-top: 200px;
-    padding-left: 120px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 10px;
 }
 .image{
 width: 100%;
@@ -12,6 +13,7 @@ cursor: pointer;
     column-gap: 10px;
     row-gap: 10px;
     background-color: rgb(255, 255, 255);
+    margin-top: 70px;
 }
 .div{
     display: grid;
@@ -28,6 +30,7 @@ cursor: pointer;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav{
     position: fixed;
@@ -54,7 +57,7 @@ cursor: pointer;
 }
 
 
-@media(min-width:100px){
+@media(min-width:10px){
     .section{
         grid-template-columns: 1fr ;
     }
